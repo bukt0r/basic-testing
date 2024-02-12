@@ -12,7 +12,9 @@
     "lint": "eslint \"src/**/*.ts\" --fix",
     "test": "jest --silent",
     "test:verbose": "jest",
+    "test1": "jest **/(01-simple-tests)/?(*.)+(test).ts",
     "build": "tsc"
+
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",
